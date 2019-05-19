@@ -1,0 +1,5 @@
+#!/bin/bash
+wal -n -i "$1"
+nitrogen --head=0 --set-zoom-fill --set-color=#000000 --save "$1"
+nitrogen --head=1 --set-zoom-fill --set-color=#000000 --save "$1"
+oomox-cli -o pywal-theme ~/.cache/wal/colors-oomox
